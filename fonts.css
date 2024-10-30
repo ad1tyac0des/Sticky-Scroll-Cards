@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Heavy.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'whyte';
+    src: url('assets/fonts/WhyteInktrap-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
