@@ -48,3 +48,17 @@ function injectCards() {
     })
 }
 injectCards();
+
+const cards = document.querySelectorAll('.card').forEach(card => {
+    gsap.to(card, {
+        opacity: 0,
+        scale: .8,
+        scrollTrigger: {
+            trigger: card,
+            start: 'top 112px',
+            end: 'bottom 112px',
+            markers: true,
+            scrub: 1.5
+        }
+    })
+})
