@@ -1,3 +1,11 @@
+const lenis  = new Lenis();
+
+function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+
 function injectCards() {
     const container = document.querySelector('.container');
     const cardsData = [
@@ -57,7 +65,7 @@ const cards = document.querySelectorAll('.card').forEach(card => {
             trigger: card,
             start: 'top 112px',
             end: 'bottom 112px',
-            markers: true,
+            // markers: true,
             scrub: 1.5
         }
     })
