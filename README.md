@@ -13,4 +13,4 @@ A simple web component featuring cards that stick to the viewport while scrollin
 - Lenis Smooth Scroll
 
 ## License
-[MIT LICENSE](MIT LICENSE)
+[MIT LICENSE](LICENSE)
